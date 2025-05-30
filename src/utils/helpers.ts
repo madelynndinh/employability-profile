@@ -18,14 +18,14 @@ export const get = (obj: any, path: string, defaultValue: any = undefined) => {
 /**
  * Format date to locale string
  */
-export const formatDate = (date: Date | string, locale: string = 'en-US'): string => {
+export function formatDate(date: Date | string, locale: string = 'en-US'): string {
     const d = typeof date === 'string' ? new Date(date) : date;
-    return d.toLocaleDateString(locale, {
+    return new Intl.DateTimeFormat(locale, {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-    });
-};
+    }).format(d);
+}
 
 /**
  * Debounce function
@@ -56,4 +56,47 @@ export const isClient = typeof window !== 'undefined';
 /**
  * Check if running on server side
  */
-export const isServer = typeof window === 'undefined'; 
+export const isServer = typeof window === 'undefined';
+
+interface ValidationRule {
+    required?: boolean;
+    minLength?: number;
+    maxLength?: number;
+    pattern?: RegExp;
+    message?: string;
+}
+
+interface ValidationRules {
+    [key: string]: ValidationRule;
+}
+
+interface ValidationErrors {
+    [key: string]: string;
+}
+
+export function validateForm(values: Record<string, string>, rules: ValidationRules): ValidationErrors {
+    const errors: ValidationErrors = {};
+
+    Object.keys(rules).forEach((field) => {
+        const value = values[field];
+        const rule = rules[field];
+
+        if (rule.required && !value) {
+            errors[field] = rule.message || 'This field is required';
+        }
+
+        if (value && rule.minLength && value.length < rule.minLength) {
+            errors[field] = rule.message || `Minimum length is ${rule.minLength} characters`;
+        }
+
+        if (value && rule.maxLength && value.length > rule.maxLength) {
+            errors[field] = rule.message || `Maximum length is ${rule.maxLength} characters`;
+        }
+
+        if (value && rule.pattern && !rule.pattern.test(value)) {
+            errors[field] = rule.message || 'Invalid format';
+        }
+    });
+
+    return errors;
+} 

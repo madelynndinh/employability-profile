@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import { MotionDiv } from '@/components/motion/MotionDiv';
 import { useActivities } from '@/hooks/useActivities';
