@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "title": "CSC x CPC x SQUAD Industry Night",
+        "date": "11 March, 6–9 PM ACDT",
+        "location": "National Wine Centre, Adelaide",
+        "summary": "An exciting evening of networking with top tech and finance companies including IMC Trading, Jane Street, Atlassian, InsightFactoryAI, VivCourt, Fivecast, and CommBank. I attended to explore industry trends, make professional connections, and gain insights into careers in software, AI, cybersecurity, and trading.",
+        "image": [
+            "/images/1/*"
+        ],
+        "certificate": "/certificates/industry-night-attendance.pdf",
+        "evidence": {
+            "type": "attendance",
+            "items": [
+                "Event registration confirmation",
+                "Name badge photo",
+                "LinkedIn connections made at event"
+            ]
+        },
+        "category": "Industry Events",
+        "learningOutcomes": [
+            "Network expansion in tech industry",
+            "Understanding of current market trends",
+            "Career pathway insights"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "STEM Women Graduate Careers Expo",
+        "date": "2 April 2025, 1–4 PM ACDT",
+        "location": "Adelaide Convention Centre",
+        "summary": "An inspiring event supporting women in STEM, offering the chance to connect with top graduate employers across science, technology, engineering, and mathematics. I attended to explore internships and graduate opportunities, engage with recruiters, and gain valuable insights into building a successful STEM career. A great step forward in my early career journey and commitment to gender equity in tech.",
+        "image": [
+            "/images/2/*.png",
+            "/images/2/*.jpg",
+            "/images/2/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Industry Events"
+    },
+    {
+        "id": 3,
+        "title": "Career Expo 2025",
+        "date": "12–13 March 2025, 11 AM–3 PM ACDT",
+        "location": "Bonython Hall & Hub Central, University of Adelaide",
+        "summary": "A two-day on-campus event connecting students with leading graduate employers across a wide range of disciplines. I attended to explore career pathways in STEM, business, and the arts, engage directly with recruiters, and learn about graduate programs opening in March–April. A valuable opportunity to network, ask questions, and take proactive steps toward launching my career.",
+        "image": [
+            "/images/3/*.png",
+            "/images/3/*.jpg",
+            "/images/3/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "University Sessions"
+    },
+    {
+        "id": 4,
+        "title": "Software Intern @ Inject AI",
+        "date": "Jan 2025 – Present",
+        "location": "Inject AI (Remote/On-site)",
+        "summary": "Contributing to AI-driven solutions by developing a MapReduce pipeline to process resume PDFs, building a Retrieval-Augmented Generation (RAG) system using Azure Cloud Storage for a chatbot application, and actively participating in daily stand-ups, Slack collaboration, and code reviews, gaining hands-on experience in a fast-paced, real-world development environment.",
+        "image": [
+            "/images/4/*.png",
+            "/images/4/*.jpg",
+            "/images/4/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Work Experience"
+    },
+    {
+        "id": 5,
+        "title": "JuniorDev Adelaide Panel Event",
+        "date": "15 May 2025, 5:30 PM ACDT",
+        "location": "Flinders University City Campus",
+        "summary": "Attended a sold-out panel event focused on launching a career in tech, featuring insights from engineers, AI experts, and HR leaders. Topics included landing your first role, standing out in interviews, working effectively in tech teams, and the impact of AI on future careers. A valuable evening of real-world advice, inspiration, and networking with industry professionals.",
+        "image": [
+            "/images/5/*.png",
+            "/images/5/*.jpg",
+            "/images/5/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Workshops"
+    },
+    {
+        "id": 6,
+        "title": "The Big Meet Student Careers Fair 2025",
+        "date": "Friday, 28th March 2025, 11:00 AM – 3:30 PM",
+        "location": "Adelaide Convention Centre, North Terrace",
+        "summary": "Explore career opportunities with Australia's leading employers! The Big Meet is your chance to connect with up to 100 top organisations offering graduate employment, internships, vacation work, international opportunities, and more. Many employers close applications in March/April—don't miss your chance to meet them in person! Event Highlights: Meet recruiters from a variety of industries, Explore career, study, and travel opportunities, Quiet Hour (11:00 AM – 12:00 PM) for attendees with sensory needs, Free entry, networking, and giveaways.",
+        "image": [
+            "/images/6/*.png",
+            "/images/6/*.jpg",
+            "/images/6/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Industry Events"
+    },
+    {
+        "id": 7,
+        "title": "Interview Skills Practice Session",
+        "date": "Thursday, 1 May 2025, 2:10 PM – 3:10 PM",
+        "location": "Barr Smith South, North Terrace, University of Adelaide",
+        "summary": "Prepare for your upcoming interviews by practising key techniques in this hands-on session. Focus will be on crafting your introduction, answering \"Tell me about yourself\", and using the STAR Model for behavioural questions. Preparation: Please review the Career Skills platform, Interview Guide (PDF), and Online Interview Module on CareerHub before attending. Practice Tools: Career Skills Interview 360, Vieple video interview practice.",
+        "image": [
+            "/images/7/*.png",
+            "/images/7/*.jpg",
+            "/images/7/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Workshops"
+    },
+    {
+        "id": 8,
+        "title": "Software Engineer Intern @ Sanico Software (Application)",
+        "date": "Sunday, 18 May 2025",
+        "location": "Remote",
+        "summary": "Applied for a remote web development internship focused on building real-world UI components using HTML, CSS, and JavaScript. The role offers hands-on experience across the software stack — from frontend to testing and devops — with mentorship from industry professionals. A great opportunity to grow as a generalist developer and strengthen communication and collaboration skills in a remote agile environment.",
+        "image": [
+            "/images/8/*.png",
+            "/images/8/*.jpg",
+            "/images/8/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Job Application"
+    },
+    {
+        "id": 9,
+        "title": "Adelaide .NET User Group – .NET Aspire Workshop",
+        "date": "15 May 2025, 5:30 PM ACDT",
+        "location": "UniSA City West Campus",
+        "summary": "A hands-on workshop exploring .NET Aspire, Microsoft's new opinionated stack for building cloud-native apps. Led by Mitch Denny, a core team member, the session covered Aspire's purpose, architecture, and setup. I participated in the self-paced tutorial, deepened my practical .NET skills, and connected with the local developer community. A great mix of learning, networking, and industry insight.",
+        "image": [
+            "/images/9/*.png",
+            "/images/9/*.jpg",
+            "/images/9/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Workshops"
+    },
+    {
+        "id": 10,
+        "title": "Front-End Developer @ ExpertEaseAI",
+        "date": "Sep 2024 – Present",
+        "location": "ExpertEaseAI (Remote)",
+        "summary": "Working as part of an agile team to develop and maintain front-end features using React and Next.js. Built an NDIS pricing chatbot, now adopted by 30+ providers, enhancing accessibility and automation for disability service organizations.",
+        "image": [
+            "/images/10/*.png",
+            "/images/10/*.jpg",
+            "/images/10/*.jpeg"
+        ],
+        "certificate": null,
+        "category": "Work Experience"
+    }
+]

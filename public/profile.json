@@ -1,0 +1,22 @@
+{
+    "name": "Minh Tam Dinh",
+    "image": "profile.jpg",
+    "hero": {
+        "title": "Hi, I'm Minh Tam Dinh",
+        "subtitle": "A dedicated university student with a strong drive to grow personally and professionally within my industry.",
+        "tagline": "This portfolio captures my journey across Semester 1, 2025, where I actively participated in workshops, seminars, and professional development events. Each experience has contributed to shaping my employability profile and refining the skills that will carry me into the next phase of my career."
+    },
+    "about": {
+        "introduction": "Currently pursuing my degree in Computer Science, I am passionate about turning academic learning into real-world experience through continuous engagement with university development programs and industry opportunities.",
+        "closing": "Whether I was attending a panel discussion, completing a professional training module, or reflecting deeply on how these moments impact my future, I committed to showing up, learning, and evolving. Through this site, you'll find logged activities, personal reflections, and evidence of how I am preparing to become not just work-ready, but growth-ready.",
+        "location": "Adelaide, Australia",
+        "degreeProgram": "Bachelor of Computer Science",
+        "careerAspiration": "Software Engineer",
+        "linkedIn": "https://www.linkedin.com/in/minh-tam-dinh-320b49284/",
+        "quote": "The future belongs to those who believe in the beauty of their dreams."
+    },
+    "contact": {
+        "thankYouNote": "Thank you for reviewing my employability profile. Semester 1, 2025 has been a transformative experience.",
+        "email": "madelynndinh@gmail.com"
+    }
+}
