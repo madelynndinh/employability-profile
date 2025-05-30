@@ -84,6 +84,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contact
 
 Minh Tam Dinh
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
+- LinkedIn: https://www.linkedin.com/in/minh-tam-dinh-320b49284/
+- Email: madelynndinh@gmail.com
 - GitHub: [@madelynndinh](https://github.com/madelynndinh)
