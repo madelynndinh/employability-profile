@@ -2,6 +2,7 @@
 
 import { Tab } from '@headlessui/react';
 import { MotionDiv } from '@/components/motion';
+import Image from 'next/image';
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ');
@@ -27,7 +28,7 @@ export default function ReflectionsPage() {
                     <h2 className="text-2xl font-semibold text-gray-900">Before the Journey Began</h2>
                     <div className="mt-6 rounded-lg bg-blue-50 p-6">
                         <p className="text-lg text-gray-700">
-                        Before Semester 1, I perceived my skills as adequate but untested in real-world scenarios. I believed my technical knowledge was solid, yet I lacked confidence in networking and navigating the professional landscape. Activities like the JuniorDev Adelaide Panel Event and The Big Meet significantly reshaped this view. Engaging with industry professionals and recruiters highlighted the importance of soft skills, like communication and adaptability, which I initially undervalued. These experiences revealed gaps in my practical knowledge and interview techniques, prompting me to actively refine my resume and networking approach. Now, I recognize the tech industry demands continuous learning and proactive engagement. This shift has instilled a more realistic and ambitious perspective on my career, driving me to seek further opportunities for growth and skill development. I now prioritize not just technical proficiency but also networking and professional development as essential components of my career journey.                        </p>
+                            Before Semester 1, I perceived my skills as adequate but untested in real-world scenarios. I believed my technical knowledge was solid, yet I lacked confidence in networking and navigating the professional landscape. Activities like the JuniorDev Adelaide Panel Event and The Big Meet significantly reshaped this view. Engaging with industry professionals and recruiters highlighted the importance of soft skills, like communication and adaptability, which I initially undervalued. These experiences revealed gaps in my practical knowledge and interview techniques, prompting me to actively refine my resume and networking approach. Now, I recognize the tech industry demands continuous learning and proactive engagement. This shift has instilled a more realistic and ambitious perspective on my career, driving me to seek further opportunities for growth and skill development. I now prioritize not just technical proficiency but also networking and professional development as essential components of my career journey.                        </p>
                     </div>
                 </div>
 
@@ -91,6 +92,27 @@ export default function ReflectionsPage() {
                                         <dd className="mt-2 text-gray-600">
                                             The event provided me with a clearer understanding of the tech industry's expectations and the skills most valued by employers. I learned specific strategies for standing out in interviews and was inspired by the panelists' diverse career journeys. Most importantly, I left the event with several new professional connections, including senior engineers and HR representatives, which expanded my network significantly.
                                         </dd>
+                                        <dd className="mt-4">
+                                            <div className="rounded-lg border border-gray-200 p-4">
+                                                <h4 className="mb-2 font-medium text-gray-900">Evidence: LinkedIn Connections</h4>
+                                                <div className="grid grid-cols-2 gap-4">
+                                                    <Image
+                                                        src="/images/linkedIn/1.png"
+                                                        alt="LinkedIn connection with Simon Cook from Encode Talent"
+                                                        width={400}
+                                                        height={300}
+                                                        className="rounded-lg"
+                                                    />
+                                                    <Image
+                                                        src="/images/linkedIn/2.png"
+                                                        alt="LinkedIn connection with Meghan Ede from Comwire IT"
+                                                        width={400}
+                                                        height={300}
+                                                        className="rounded-lg"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </dd>
                                     </div>
                                     <div>
                                         <dt className="font-medium text-gray-900">Learning/Personal Development</dt>
@@ -112,19 +134,44 @@ export default function ReflectionsPage() {
                                     <div>
                                         <dt className="font-medium text-gray-900">Task</dt>
                                         <dd className="mt-2 text-gray-600">
-                                            My objective was to explore potential employers, learn about available opportunities, and make a positive impression on recruiters. I aimed to apply for internships with leading companies and gather information about the skills and attributes they seek in candidates.
+                                            My objective was to explore potential employers, particularly targeting leading companies like Maptek, EY, BHP, and KPMG. I aimed to learn about their graduate programs, understand their recruitment processes, and make meaningful connections with recruiters. My goals were comprehensive: I needed to research and identify companies that aligned with my technical interests and career goals, gather detailed information about their internship programs and application processes, make a strong first impression by preparing tailored questions for each company, and collect feedback on my resume and interview preparation strategy.
                                         </dd>
                                     </div>
                                     <div>
                                         <dt className="font-medium text-gray-900">Action</dt>
                                         <dd className="mt-2 text-gray-600">
-                                            Before the event, I researched the attending organizations and prioritized those aligned with my interests, such as Maptek, EY, BHP, and KPMG. At the fair, I engaged directly with recruiters, asked targeted questions about their internship programs, and handed out my resume. I also took advantage of the Quiet Hour to have more meaningful conversations without the usual noise and crowds.
+                                            My preparation for the career fair was thorough and methodical. I developed a compelling one-minute elevator pitch highlighting my technical skills and project experience, while also creating a professional resume specifically tailored for tech roles. I invested time in researching each target company's recent projects and tech stack, and prepared specific questions about their graduate programs and company culture.
+
+                                            During the fair itself, I implemented a strategic approach to maximize my interactions. I took advantage of the Quiet Hour to have more focused conversations with recruiters, during which I asked detailed questions about their tech stack and development methodologies. I shared my portfolio and discussed relevant projects that aligned with each company's interests. After each meaningful conversation, I took detailed notes to ensure effective follow-up and made a point to connect with recruiters on LinkedIn within 24 hours of meeting them, maintaining the momentum of our initial interactions.
                                         </dd>
                                     </div>
                                     <div>
                                         <dt className="font-medium text-gray-900">Result</dt>
                                         <dd className="mt-2 text-gray-600">
-                                            Attending The Big Meet allowed me to apply for multiple internships and gain firsthand insights into the recruitment processes of top companies. I received valuable feedback on my resume and interview technique, and I established connections with recruiters who provided guidance on tailoring my applications. The experience also helped me clarify my career interests and identify the types of roles and organizations that best fit my aspirations.
+                                            My strategic approach at The Big Meet yielded significant outcomes across multiple fronts. I successfully submitted applications to several graduate programs, each carefully personalized based on my interactions at the fair. The feedback I received on my resume proved invaluable, leading to meaningful improvements in how I presented my technical skills and experiences. Through these interactions, I established valuable connections with technical recruiters and hiring managers, gaining insider knowledge about assessment centers and technical interviews that would prove crucial in my application journey.
+
+                                            Perhaps most importantly, I developed a clear understanding of different companies' tech cultures and values, while building a robust professional network on LinkedIn with both recruiters and current graduates. This experience was transformative in helping me identify which organizations best aligned with my career aspirations and gave me newfound confidence in navigating professional networking events. The connections and insights gained continue to influence my career development strategy.
+                                        </dd>
+                                        <dd className="mt-4">
+                                            <div className="rounded-lg border border-gray-200 p-4">
+                                                <h4 className="mb-2 font-medium text-gray-900">Evidence: LinkedIn Interactions</h4>
+                                                <div className="grid grid-cols-2 gap-4">
+                                                    <Image
+                                                        src="/images/linkedIn/3.png"
+                                                        alt="LinkedIn interaction with Saumil about KPMG Vacationer Program"
+                                                        width={400}
+                                                        height={300}
+                                                        className="rounded-lg"
+                                                    />
+                                                    <Image
+                                                        src="/images/linkedIn/4.png"
+                                                        alt="LinkedIn interaction about AI Cadet Program"
+                                                        width={400}
+                                                        height={300}
+                                                        className="rounded-lg"
+                                                    />
+                                                </div>
+                                            </div>
                                         </dd>
                                     </div>
                                     <div>
